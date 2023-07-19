@@ -80,6 +80,7 @@ struct ColorSliderView: View {
 			TextField("", value: $value, formatter: NumberFormatter())
 				.textFieldStyle(.roundedBorder)
 				.frame(width: 50)
+				.keyboardType(.numberPad)
 		}
 	}
 }
